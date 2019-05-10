@@ -1,0 +1,35 @@
+{
+  "name": "travis",
+  "version": "1.0.0",
+  "description": "Travis and Heroku together test",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm run lint server.js && mocha ./tests/index-spec.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OtakuToronto/Sample-Travis-Heroku.git"
+  },
+  "keywords": [
+    "Git",
+    "Heroku",
+    "Travis",
+    "Continuous",
+    "Intigration"
+  ],
+  "author": "Holly Gronau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OtakuToronto/Sample-Travis-Heroku/issues"
+  },
+  "homepage": "https://github.com/OtakuToronto/Sample-Travis-Heroku#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.16.4",
+    "mocha": "^6.1.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  }
+}
