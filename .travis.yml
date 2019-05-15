@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+- stable
+npm: true
+  cache:
+    directories:
+      - node_modules
+deploy:
+  provider: heroku
+  api_key:
+    secure: ozVF72TFtXtWNVSFNKWgTIfdIIZReqfQezp5cjAkfkXzrXmLlXAkWaxr5z8AEyO14stVt84nH8RTX9hKBwTovdW7HRUjGee0HiMW4wFGPV/1j0olkxe3Frr3tbsREQ2QE4XgZcK+zWdRz919UdddQENRpKSYjL65auWshZmKG3k/cc3qRv1e6euGnTI6jfP7RDN6zu1TEse6XfEa/41+l80a1rtCejapYZbkxc+DXfvq/3h8pDLkWxREMRnLFBzLN7aU4olP44LgdvDNbDMkcF6jcXFfbi7zpoxYLIVLX9Z9q951BicuZg4G8FEwbR54oXW32KhBIC3PrSKPVw7bWJdPIaRWWpHxXVVaf5IwuoTidDqQSpFJcHyDDykiy678Z9GfOq800PUFSEcl71YcxUyQi5SPqcRDWjg3xeJlQfNKxwU5JzONWaVUnSPWO23ppHVdOAOoMcrkGsJprl/B5iasPKouRHEA1g0SW8XXJcBpIUIVTuO9jFgbnqUp0wbX+X7h07L7gDThs3U/rmI4E8fbz0iThUlrR+6VZTsAaXfo5wl4k1Q1skkfgKjaqhHq1ND/0Jz+ArSrgGPHBQckZPngxth/VPTRTf3I1pMDiOnELw6H/OJ/cCalzvWvj6mlQ4NP4aI8fuOkfWuGjvPku/+JeYAyHzqAFhuoZAJRHlI=
+  app: travis setup heroku
+  on:
+    repo: OtakuToronto/Sample-Travis-Heroku
