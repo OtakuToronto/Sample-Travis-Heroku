@@ -1,4 +1,4 @@
-/* server.js main file by Holly Gronau--- */
+/* server.js main file by Holly Gronau */
 const express = require('express');
 
 const app = express();
